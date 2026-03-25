@@ -15,7 +15,8 @@ It replaces my earlier approach, which relied on large IP arrays and inefficient
 The scanner uses the `scapy` library to send ARP requests across a specified IP range and listens for responses from active hosts.  
 This approach is faster and more reliable than iterating through large lists of IP addresses manually.
 
-Installation:
+Installation
+```bash
 git clone https://github.com/Pimpek104/improved-network-scanner.git
 cd improved-network-scanner
 pip install scapy
